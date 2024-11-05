@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/* Header */
+
+#bgImage {
+    background-image: url(../imgWWF/tigre.jpg);
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+width: 100%;
+}
+
+#accueil {
+    margin-left: auto;
+}
+
+#parentNav1 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    list-style-type: none;
+}
+
+li:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.enfantNav1 {
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* Article sur le fond avec opacity */
+
+
+#tigreBirTitre {
+    margin-left: 340px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#articleOpacity {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 100%;
+}
+
+#parentOpacityB {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    color: white;
+}
+
+.enfantOpacityB {
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+/* Main */
+
+/* Article 1 */
+
+article {
+    width: 80%;
+    margin: auto;
+}
+
+#parentArticle1 {
+    display: flex;
+    /* padding: 50px; */
+}
+
+.enfantArticle1 {
+    width: 100%;
+    padding: 40px;
+}
+
+/* Section verte */
+
+#parentSectionVerte {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#sectionVerte {
+    background-color: rgb(97, 239, 127);
+    height: 200px;
+}
+
+
+#enfanttxtSectionVerte {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+float: right;
+}
+
+.enfantSectionVerte {
+font-size: 30px;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+#membre {
+margin: auto;
+}
+
+
+
+#tigre3 {
+    width: 33%;
+    position: absolute;
+    top: 10%;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+/* Section diapo */
+
+#section80 {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative
+}
+
+#imgFond {
+    width: 100%;
+}
+
+#parentOpacityW {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 100px;
+    left: 0%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 173px;
+}
+
+#buttonDiapo {
+    background-color: black;
+    border: solid 2px white;
+    width: 330px;
+    height: 74px;
+    font-size: 29px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.656);
+}
+
+.enfantOpacityW {
+    color: white;
+    font-size: 30px;
+}
+
+#blackBox {
+    background-color: black;
+    width: auto;
+    height: 20px;
+}
+
+#greyBox {
+    position: absolute;
+    bottom: 9%;
+    left: 0%;
+    background-color: black;
+    width: 1229px;
+    height: 20px;
+}
+
+/* Footer */
+
+
+#parentFooter {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42, 41, 41);
+    height: 200px;
+}
+
+.enfantFooter {
+    width: 200px;
+}
+
+#parentNav2 {
+    list-style-type: none;
+}
+
+.enfantNav2 {
+
+    padding: 5px;
+    color: white;
+}
+
+#parentNav3 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.enfantNav3 {
+    padding: 15px;
+}
+
+button {
+    background-color: rgba(14, 129, 246);
+    border-radius: 80px;
+    border: solid 3px rgb(81, 200, 240);
+    padding: 10px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
